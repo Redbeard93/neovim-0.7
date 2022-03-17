@@ -99,6 +99,12 @@ _G.packer_plugins = {
     path = "/home/o/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
+  ["cmp-tabnine"] = {
+    config = { "\27LJ\2\nº\1\0\0\6\0\5\0\n6\0\0\0'\2\1\0B\0\2\2\18\3\0\0009\1\2\0005\4\3\0004\5\0\0=\5\4\4B\1\3\1K\0\1\0\23ignored_file_types\1\0\5\14max_lines\3è\a\tsort\2\24snippet_placeholder\a..\27run_on_every_keystroke\2\20max_num_results\3\20\nsetup\23cmp_tabnine.config\frequire\0" },
+    loaded = true,
+    path = "/home/o/.local/share/nvim/site/pack/packer/start/cmp-tabnine",
+    url = "https://github.com/tzachar/cmp-tabnine"
+  },
   cmp_luasnip = {
     loaded = true,
     path = "/home/o/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
@@ -123,6 +129,21 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/o/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
     url = "https://github.com/norcalli/nvim-colorizer.lua"
+  },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "/home/o/.local/share/nvim/site/pack/packer/start/nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
+  },
+  ["nvim-dap-ui"] = {
+    loaded = true,
+    path = "/home/o/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
+    url = "https://github.com/rcarriga/nvim-dap-ui"
+  },
+  ["nvim-dap-virtual-text"] = {
+    loaded = true,
+    path = "/home/o/.local/share/nvim/site/pack/packer/start/nvim-dap-virtual-text",
+    url = "https://github.com/theHamsta/nvim-dap-virtual-text"
   },
   ["nvim-hlslens"] = {
     loaded = true,
@@ -162,6 +183,10 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: cmp-tabnine
+time([[Config for cmp-tabnine]], true)
+try_loadstring("\27LJ\2\nº\1\0\0\6\0\5\0\n6\0\0\0'\2\1\0B\0\2\2\18\3\0\0009\1\2\0005\4\3\0004\5\0\0=\5\4\4B\1\3\1K\0\1\0\23ignored_file_types\1\0\5\14max_lines\3è\a\tsort\2\24snippet_placeholder\a..\27run_on_every_keystroke\2\20max_num_results\3\20\nsetup\23cmp_tabnine.config\frequire\0", "config", "cmp-tabnine")
+time([[Config for cmp-tabnine]], false)
 if should_profile then save_profiles() end
 
 end)

@@ -2268,3 +2268,2003 @@ java.lang.NullPointerException
 
 !ENTRY java-debug 1 0 2022-03-16 09:08:54.186
 !MESSAGE Stopping com.microsoft.java.debug.plugin
+!SESSION 2022-03-16 19:15:49.999 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/o/.config/nvim/workspace/folder/demo
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:51.458
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:51.779
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:51.835
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:51.840
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:51.878
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:51.879
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:51.879
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:51.880
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:51.880
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:51.880
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:51.887
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:51.888
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:51.900
+!MESSAGE ProjectRegistryRefreshJob finished 12ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:51.901
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:51.973
+!MESSAGE Started org.eclipse.buildship.core 71ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:53.792
+!MESSAGE LoadingGradleVersionJob finished 1818ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:53.811
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:54.388
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:54.797
+!MESSAGE Workspace initialized in 1003ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:54.838
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:54.847
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:54.910
+!MESSAGE >> New configuration: {java={references={includeDecompiledSources=true}, maven={downloadSources=true}, implementationsCodeLens={enabled=true}, referencesCodeLens={enabled=true}, progressReports={enabled=true}, format={enabled=true}, eclipse={downloadSources=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:54.923
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:55.651
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:55.874
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:55.875
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:55.878
+!MESSAGE Validated 1. Took 204 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:55.890
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:55.911
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:15:55.911
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:16:47.753
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:16:47.772
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:16:48.213
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:16:48.214
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:16:48.215
+!MESSAGE Validated 1. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:16:50.173
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:16:50.184
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:16:50.607
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:16:50.607
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:16:50.607
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:29.541
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:29.546
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:29.612
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:29.617
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:29.625
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-03-16 19:17:30.041
+!MESSAGE An internal error occurred during: "Publish Diagnostics".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.getProjectsManager(JavaLanguageServerPlugin.java:491)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.isDefaultProject(JDTUtils.java:1164)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.<init>(BaseDiagnosticsHandler.java:57)
+	at org.eclipse.jdt.ls.core.internal.handlers.DiagnosticsHandler.<init>(DiagnosticsHandler.java:32)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandler.createDiagnosticsHandler(DocumentLifeCycleHandler.java:44)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:257)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:249)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:117)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-03-16 19:17:30.731 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/o/.config/nvim/workspace/folder/demo
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:31.927
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:32.158
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:32.196
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:32.205
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:32.250
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:32.250
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:32.251
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:32.251
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:32.251
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:32.252
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:32.258
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:32.259
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:32.272
+!MESSAGE ProjectRegistryRefreshJob finished 12ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:32.272
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:32.340
+!MESSAGE Started org.eclipse.buildship.core 68ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:32.375
+!MESSAGE LoadingGradleVersionJob finished 34ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:32.419
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:32.885
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:33.861
+!MESSAGE Workspace initialized in 1481ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:33.916
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:33.926
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:34.009
+!MESSAGE >> New configuration: {java={implementationsCodeLens={enabled=true}, referencesCodeLens={enabled=true}, references={includeDecompiledSources=true}, progressReports={enabled=true}, eclipse={downloadSources=true}, format={enabled=true}, maven={downloadSources=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:34.012
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:34.758
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:35.032
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:35.032
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:35.035
+!MESSAGE Validated 1. Took 253 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:35.049
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:35.060
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:35.061
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:52.072
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:52.165
+!MESSAGE Reconciled 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:52.601
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:52.601
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:52.602
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:53.814
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:53.849
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:54.264
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:54.265
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:17:54.265
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:03.433
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:03.436
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:03.438
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:03.442
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:03.474
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:03.894
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:03.895
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:03.895
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:06.094
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:06.119
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:06.539
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:06.539
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:06.539
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:24.132
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainClass
+
+!ENTRY java-debug 1 0 2022-03-16 19:18:24.152
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:24.346
+!MESSAGE >> workspace/executeCommand vscode.java.resolveJavaExecutable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:24.351
+!MESSAGE >> workspace/executeCommand vscode.java.checkProjectSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:24.357
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:28.683
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:28.706
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:29.125
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:29.126
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:29.126
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:29.683
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:29.753
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:30.172
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:30.173
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:18:30.174
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:39.014
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:39.017
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:39.023
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:39.025
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:39.045
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:39.462
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:39.462
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:39.462
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:43.185
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:43.202
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:43.617
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:43.618
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:43.618
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:46.768
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY java-debug 1 0 2022-03-16 19:19:46.970
+!MESSAGE Trying to launch Java Program with options:
+main-class: com.demo.App
+args: 
+module-path: 
+class-path: /home/o/Documents/JavaProject/demo/target/classes
+vmArgs: 
+
+!ENTRY java-debug 1 0 2022-03-16 19:19:47.087
+!MESSAGE Launching debuggee in terminal console succeeded.
+
+!ENTRY java-debug 1 0 2022-03-16 19:19:47.570
+!MESSAGE Debug connection closed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:56.876
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:56.904
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:56.904
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:58.262
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:58.264
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:58.323
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:19:58.339
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY java-debug 1 0 2022-03-16 19:19:58.924
+!MESSAGE Stopping com.microsoft.java.debug.plugin
+!SESSION 2022-03-16 19:19:59.507 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/o/.config/nvim/workspace/folder/demo
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:00.833
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:01.113
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:01.160
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:01.166
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:01.219
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:01.220
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:01.220
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:01.220
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:01.221
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:01.221
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:01.228
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:01.229
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:01.242
+!MESSAGE ProjectRegistryRefreshJob finished 13ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:01.243
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:01.316
+!MESSAGE Started org.eclipse.buildship.core 72ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:01.354
+!MESSAGE LoadingGradleVersionJob finished 36ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:01.400
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:01.952
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:02.672
+!MESSAGE Workspace initialized in 1308ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:02.704
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:02.707
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:02.746
+!MESSAGE >> New configuration: {java={references={includeDecompiledSources=true}, eclipse={downloadSources=true}, progressReports={enabled=true}, maven={downloadSources=true}, implementationsCodeLens={enabled=true}, referencesCodeLens={enabled=true}, format={enabled=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:02.747
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:03.469
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:03.739
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:03.739
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:03.743
+!MESSAGE Validated 1. Took 230 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:03.757
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:03.787
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:03.787
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:10.953
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainClass
+
+!ENTRY java-debug 1 0 2022-03-16 19:20:10.969
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:11.182
+!MESSAGE >> workspace/executeCommand vscode.java.resolveJavaExecutable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:11.188
+!MESSAGE >> workspace/executeCommand vscode.java.checkProjectSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:20:11.194
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:33.093
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:33.095
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:33.143
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:33.148
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:33.157
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:33.160
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-03-16 19:21:33.567
+!MESSAGE An internal error occurred during: "Publish Diagnostics".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.getProjectsManager(JavaLanguageServerPlugin.java:491)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.isDefaultProject(JDTUtils.java:1164)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.<init>(BaseDiagnosticsHandler.java:57)
+	at org.eclipse.jdt.ls.core.internal.handlers.DiagnosticsHandler.<init>(DiagnosticsHandler.java:32)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandler.createDiagnosticsHandler(DocumentLifeCycleHandler.java:44)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:257)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:249)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:117)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY java-debug 1 0 2022-03-16 19:21:33.836
+!MESSAGE Stopping com.microsoft.java.debug.plugin
+!SESSION 2022-03-16 19:21:34.086 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/o/.config/nvim/workspace/folder/demo
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:35.364
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:35.593
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:35.642
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:35.647
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:35.684
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:35.685
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:35.685
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:35.685
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:35.686
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:35.686
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:35.693
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:35.694
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:35.706
+!MESSAGE ProjectRegistryRefreshJob finished 12ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:35.707
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:35.782
+!MESSAGE Started org.eclipse.buildship.core 75ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:35.784
+!MESSAGE LoadingGradleVersionJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:35.802
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:36.282
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:37.114
+!MESSAGE Workspace initialized in 1327ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:37.158
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:37.165
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:37.202
+!MESSAGE >> New configuration: {java={referencesCodeLens={enabled=true}, references={includeDecompiledSources=true}, progressReports={enabled=true}, eclipse={downloadSources=true}, format={enabled=true}, maven={downloadSources=true}, implementationsCodeLens={enabled=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:37.203
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:37.864
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:38.166
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:38.167
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:38.174
+!MESSAGE Validated 1. Took 290 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:38.196
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:38.210
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:38.210
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:39.688
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainClass
+
+!ENTRY java-debug 1 0 2022-03-16 19:21:39.704
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:39.915
+!MESSAGE >> workspace/executeCommand vscode.java.resolveJavaExecutable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:39.920
+!MESSAGE >> workspace/executeCommand vscode.java.checkProjectSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:39.925
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:43.483
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:43.517
+!MESSAGE Reconciled 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:43.946
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:43.946
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:43.947
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:44.987
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:45.008
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:45.426
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:45.427
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:21:45.427
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:19.545
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:19.554
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:19.602
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:19.609
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:19.623
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-03-16 19:22:20.084
+!MESSAGE An internal error occurred during: "Publish Diagnostics".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.getProjectsManager(JavaLanguageServerPlugin.java:491)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.isDefaultProject(JDTUtils.java:1164)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.<init>(BaseDiagnosticsHandler.java:57)
+	at org.eclipse.jdt.ls.core.internal.handlers.DiagnosticsHandler.<init>(DiagnosticsHandler.java:32)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandler.createDiagnosticsHandler(DocumentLifeCycleHandler.java:44)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:257)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:249)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:117)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY java-debug 1 0 2022-03-16 19:22:20.193
+!MESSAGE Stopping com.microsoft.java.debug.plugin
+!SESSION 2022-03-16 19:22:22.711 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/o/.config/nvim/workspace/folder/demo
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:23.985
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:24.244
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:24.295
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:24.303
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:24.351
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:24.352
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:24.354
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:24.355
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:24.355
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:24.355
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:24.364
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:24.365
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:24.386
+!MESSAGE ProjectRegistryRefreshJob finished 19ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:24.386
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:24.450
+!MESSAGE Started org.eclipse.buildship.core 64ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:24.463
+!MESSAGE LoadingGradleVersionJob finished 11ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:24.487
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:24.937
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:25.703
+!MESSAGE Workspace initialized in 1239ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:25.745
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:25.749
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:25.812
+!MESSAGE >> New configuration: {java={eclipse={downloadSources=true}, progressReports={enabled=true}, maven={downloadSources=true}, implementationsCodeLens={enabled=true}, referencesCodeLens={enabled=true}, references={includeDecompiledSources=true}, format={enabled=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:25.814
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:26.514
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:26.767
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:26.768
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:26.771
+!MESSAGE Validated 1. Took 224 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:26.794
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:26.819
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:22:26.819
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:23:22.521
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainClass
+
+!ENTRY java-debug 1 0 2022-03-16 19:23:22.539
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:23:22.708
+!MESSAGE >> workspace/executeCommand vscode.java.resolveJavaExecutable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:23:22.714
+!MESSAGE >> workspace/executeCommand vscode.java.checkProjectSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:23:22.720
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:23:27.292
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY java-debug 1 0 2022-03-16 19:23:27.481
+!MESSAGE Trying to launch Java Program with options:
+main-class: com.demo.App
+args: 
+module-path: 
+class-path: /home/o/Documents/JavaProject/demo/target/classes
+vmArgs: 
+
+!ENTRY java-debug 1 0 2022-03-16 19:23:27.619
+!MESSAGE Launching debuggee in terminal console succeeded.
+
+!ENTRY java-debug 1 0 2022-03-16 19:23:28.051
+!MESSAGE Debug connection closed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:24:56.312
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:24:56.321
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:24:56.327
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:24:56.330
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:24:56.341
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:24:56.813
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:24:56.814
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:24:56.814
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:24:58.396
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:24:58.408
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:24:58.831
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:24:58.832
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:24:58.832
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:24:59.503
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:24:59.572
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:24:59.987
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:24:59.987
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:24:59.988
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:00.928
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:00.938
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:01.220
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:01.231
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:01.651
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:01.652
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:01.653
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:04.670
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:04.672
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:04.715
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:04.724
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:04.725
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-03-16 19:25:05.190
+!MESSAGE An internal error occurred during: "Publish Diagnostics".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.getProjectsManager(JavaLanguageServerPlugin.java:491)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.isDefaultProject(JDTUtils.java:1164)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.<init>(BaseDiagnosticsHandler.java:57)
+	at org.eclipse.jdt.ls.core.internal.handlers.DiagnosticsHandler.<init>(DiagnosticsHandler.java:32)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandler.createDiagnosticsHandler(DocumentLifeCycleHandler.java:44)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:257)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:249)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:117)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY java-debug 1 0 2022-03-16 19:25:05.297
+!MESSAGE Stopping com.microsoft.java.debug.plugin
+!SESSION 2022-03-16 19:25:05.702 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/o/.config/nvim/workspace/folder/demo
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:06.941
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:07.210
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:07.248
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:07.253
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:07.303
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:07.304
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:07.304
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:07.305
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:07.305
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:07.306
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:07.315
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:07.316
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:07.329
+!MESSAGE ProjectRegistryRefreshJob finished 13ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:07.330
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:07.363
+!MESSAGE Started org.eclipse.buildship.core 33ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:07.375
+!MESSAGE LoadingGradleVersionJob finished 11ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:07.393
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:07.823
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:08.622
+!MESSAGE Workspace initialized in 1244ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:08.668
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:08.673
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:08.726
+!MESSAGE >> New configuration: {java={implementationsCodeLens={enabled=true}, referencesCodeLens={enabled=true}, format={enabled=true}, progressReports={enabled=true}, eclipse={downloadSources=true}, references={includeDecompiledSources=true}, maven={downloadSources=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:08.728
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:09.430
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:09.715
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:09.715
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:09.718
+!MESSAGE Validated 1. Took 264 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:09.742
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:09.752
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:09.752
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:12.682
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainClass
+
+!ENTRY java-debug 1 0 2022-03-16 19:25:12.710
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:12.870
+!MESSAGE >> workspace/executeCommand vscode.java.resolveJavaExecutable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:12.876
+!MESSAGE >> workspace/executeCommand vscode.java.checkProjectSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:12.881
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:50.362
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:50.364
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:50.406
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:50.414
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:25:50.416
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-03-16 19:25:50.886
+!MESSAGE An internal error occurred during: "Publish Diagnostics".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.getProjectsManager(JavaLanguageServerPlugin.java:491)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.isDefaultProject(JDTUtils.java:1164)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.<init>(BaseDiagnosticsHandler.java:57)
+	at org.eclipse.jdt.ls.core.internal.handlers.DiagnosticsHandler.<init>(DiagnosticsHandler.java:32)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandler.createDiagnosticsHandler(DocumentLifeCycleHandler.java:44)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:257)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:249)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:117)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY java-debug 1 0 2022-03-16 19:25:50.997
+!MESSAGE Stopping com.microsoft.java.debug.plugin
+!SESSION 2022-03-16 19:30:03.669 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/o/.config/nvim/workspace/folder/demo
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:05.005
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:05.283
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:05.340
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:05.348
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:05.395
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:05.396
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:05.397
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:05.398
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:05.399
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:05.399
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:05.406
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:05.407
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:05.420
+!MESSAGE ProjectRegistryRefreshJob finished 12ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:05.420
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:05.484
+!MESSAGE Started org.eclipse.buildship.core 63ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:05.507
+!MESSAGE LoadingGradleVersionJob finished 22ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:05.561
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:06.028
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:06.749
+!MESSAGE Workspace initialized in 1240ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:06.789
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:06.792
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:06.828
+!MESSAGE >> New configuration: {java={references={includeDecompiledSources=true}, progressReports={enabled=true}, eclipse={downloadSources=true}, referencesCodeLens={enabled=true}, maven={downloadSources=true}, implementationsCodeLens={enabled=true}, format={enabled=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:06.834
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:07.563
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:07.866
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:07.866
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:07.870
+!MESSAGE Validated 1. Took 284 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:07.884
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:07.919
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:07.920
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:47.329
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:47.355
+!MESSAGE Reconciled 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:47.782
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:47.782
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:47.783
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:48.564
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:48.584
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:48.999
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:48.999
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:48.999
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:55.921
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:55.941
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:56.369
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:56.369
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:56.369
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:57.202
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:57.219
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:57.634
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:57.634
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:30:57.634
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:31:17.088
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainClass
+
+!ENTRY java-debug 1 0 2022-03-16 19:31:17.107
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:31:17.275
+!MESSAGE >> workspace/executeCommand vscode.java.resolveJavaExecutable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:31:17.283
+!MESSAGE >> workspace/executeCommand vscode.java.checkProjectSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:31:17.290
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:31:23.276
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:31:23.292
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:31:23.710
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:31:23.710
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:31:23.711
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:31:24.017
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:31:24.034
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:31:24.447
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:31:24.448
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:31:24.448
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:31:40.263
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:31:40.271
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:31:40.308
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:31:40.317
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:31:40.317
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-03-16 19:31:40.791
+!MESSAGE An internal error occurred during: "Publish Diagnostics".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.getProjectsManager(JavaLanguageServerPlugin.java:491)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.isDefaultProject(JDTUtils.java:1164)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.<init>(BaseDiagnosticsHandler.java:57)
+	at org.eclipse.jdt.ls.core.internal.handlers.DiagnosticsHandler.<init>(DiagnosticsHandler.java:32)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandler.createDiagnosticsHandler(DocumentLifeCycleHandler.java:44)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:257)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:249)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:117)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY java-debug 1 0 2022-03-16 19:31:40.887
+!MESSAGE Stopping com.microsoft.java.debug.plugin
+!SESSION 2022-03-16 19:33:29.602 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/o/.config/nvim/workspace/folder/demo
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:32.095
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:32.553
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:32.620
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:32.626
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:32.694
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:32.694
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:32.695
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:32.695
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:32.695
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:32.696
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:32.704
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:32.705
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:32.708
+!MESSAGE ProjectRegistryRefreshJob finished 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:32.709
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:32.810
+!MESSAGE Started org.eclipse.buildship.core 100ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:32.842
+!MESSAGE LoadingGradleVersionJob finished 32ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:32.919
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:33.861
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:34.863
+!MESSAGE Workspace initialized in 2017ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:34.928
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:34.940
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:35.039
+!MESSAGE >> New configuration: {java={referencesCodeLens={enabled=true}, format={enabled=true}, eclipse={downloadSources=true}, references={includeDecompiledSources=true}, progressReports={enabled=true}, maven={downloadSources=true}, implementationsCodeLens={enabled=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:35.041
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:36.579
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:36.920
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:36.920
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:36.926
+!MESSAGE Validated 1. Took 317 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:36.939
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:36.965
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:36.965
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:38.788
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:38.821
+!MESSAGE Reconciled 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:39.268
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:39.268
+!MESSAGE 5 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:39.269
+!MESSAGE Validated 1. Took 43 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:39.846
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:39.868
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:40.284
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:40.284
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:33:40.285
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:04.679
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:04.746
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:05.163
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:05.164
+!MESSAGE 4 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:05.164
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:05.687
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:05.707
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:06.127
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:06.128
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:06.128
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:20.807
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainClass
+
+!ENTRY java-debug 1 0 2022-03-16 19:41:20.842
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:21.035
+!MESSAGE >> workspace/executeCommand vscode.java.resolveJavaExecutable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:21.042
+!MESSAGE >> workspace/executeCommand vscode.java.checkProjectSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:21.048
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:24.647
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:24.663
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:25.079
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:25.079
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:25.079
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:25.726
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:25.743
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:26.164
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:26.165
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:26.165
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:41:27.760
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY java-debug 1 0 2022-03-16 19:41:28.086
+!MESSAGE Trying to launch Java Program with options:
+main-class: com.demo.App
+args: 
+module-path: 
+class-path: /home/o/Documents/JavaProject/demo/target/classes
+vmArgs: 
+
+!ENTRY java-debug 1 0 2022-03-16 19:41:28.271
+!MESSAGE Launching debuggee in terminal console succeeded.
+
+!ENTRY java-debug 1 0 2022-03-16 19:41:28.721
+!MESSAGE Debug connection closed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:43:51.885
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY java-debug 1 0 2022-03-16 19:43:51.924
+!MESSAGE Trying to launch Java Program with options:
+main-class: com.demo.App
+args: 
+module-path: 
+class-path: /home/o/Documents/JavaProject/demo/target/classes
+vmArgs: 
+
+!ENTRY java-debug 1 0 2022-03-16 19:43:52.045
+!MESSAGE Launching debuggee in terminal console succeeded.
+
+!ENTRY java-debug 1 0 2022-03-16 19:44:10.292
+!MESSAGE Debug connection closed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:12.193
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY java-debug 1 0 2022-03-16 19:44:12.226
+!MESSAGE Trying to launch Java Program with options:
+main-class: com.demo.App
+args: 
+module-path: 
+class-path: /home/o/Documents/JavaProject/demo/target/classes
+vmArgs: 
+
+!ENTRY java-debug 1 0 2022-03-16 19:44:12.313
+!MESSAGE Launching debuggee in terminal console succeeded.
+
+!ENTRY java-debug 1 0 2022-03-16 19:44:21.446
+!MESSAGE Debug connection closed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:32.104
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:32.110
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:32.141
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:32.151
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:32.151
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-03-16 19:44:32.582
+!MESSAGE An internal error occurred during: "Publish Diagnostics".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.getProjectsManager(JavaLanguageServerPlugin.java:491)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.isDefaultProject(JDTUtils.java:1164)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.<init>(BaseDiagnosticsHandler.java:57)
+	at org.eclipse.jdt.ls.core.internal.handlers.DiagnosticsHandler.<init>(DiagnosticsHandler.java:32)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandler.createDiagnosticsHandler(DocumentLifeCycleHandler.java:44)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:257)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:249)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:117)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY java-debug 1 0 2022-03-16 19:44:32.744
+!MESSAGE Stopping com.microsoft.java.debug.plugin
+!SESSION 2022-03-16 19:44:33.292 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/o/.config/nvim/workspace/folder/demo
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:35.073
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:35.602
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:35.655
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:35.662
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:35.707
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:35.707
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:35.708
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:35.708
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:35.708
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:35.709
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:35.715
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:35.716
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:35.718
+!MESSAGE ProjectRegistryRefreshJob finished 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:35.718
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:35.747
+!MESSAGE Started org.eclipse.buildship.core 29ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:35.788
+!MESSAGE LoadingGradleVersionJob finished 40ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:35.805
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:36.412
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:38.287
+!MESSAGE Workspace initialized in 2496ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:38.352
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:38.360
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:38.436
+!MESSAGE >> New configuration: {java={progressReports={enabled=true}, eclipse={downloadSources=true}, references={includeDecompiledSources=true}, format={enabled=true}, maven={downloadSources=true}, implementationsCodeLens={enabled=true}, referencesCodeLens={enabled=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:38.437
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:39.325
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:39.628
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:39.629
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:39.633
+!MESSAGE Validated 1. Took 282 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:39.648
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:39.678
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:39.679
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:40.714
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainClass
+
+!ENTRY java-debug 1 0 2022-03-16 19:44:40.734
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:41.103
+!MESSAGE >> workspace/executeCommand vscode.java.resolveJavaExecutable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:41.109
+!MESSAGE >> workspace/executeCommand vscode.java.checkProjectSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:44:41.115
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:45:19.460
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:45:19.495
+!MESSAGE Reconciled 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:45:19.956
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:45:19.957
+!MESSAGE 10 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:45:19.958
+!MESSAGE Validated 1. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:45:20.476
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:45:20.497
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:45:20.917
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:45:20.918
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:45:20.918
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 19:45:33.436
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY java-debug 1 0 2022-03-16 19:45:33.698
+!MESSAGE Trying to launch Java Program with options:
+main-class: com.demo.App
+args: 
+module-path: 
+class-path: /home/o/Documents/JavaProject/demo/target/classes
+vmArgs: 
+
+!ENTRY java-debug 1 0 2022-03-16 19:45:33.887
+!MESSAGE Launching debuggee in terminal console succeeded.
+
+!ENTRY java-debug 1 0 2022-03-16 19:46:02.920
+!MESSAGE Debug connection closed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 20:03:51.738
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 20:03:51.741
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 20:03:51.770
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 20:03:51.778
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 20:03:51.780
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-03-16 20:03:52.255
+!MESSAGE An internal error occurred during: "Publish Diagnostics".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.getProjectsManager(JavaLanguageServerPlugin.java:491)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.isDefaultProject(JDTUtils.java:1164)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.<init>(BaseDiagnosticsHandler.java:57)
+	at org.eclipse.jdt.ls.core.internal.handlers.DiagnosticsHandler.<init>(DiagnosticsHandler.java:32)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandler.createDiagnosticsHandler(DocumentLifeCycleHandler.java:44)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:257)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:249)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:117)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY java-debug 1 0 2022-03-16 20:03:52.347
+!MESSAGE Stopping com.microsoft.java.debug.plugin
+!SESSION 2022-03-16 22:08:30.438 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/o/.config/nvim/workspace/folder/demo
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:31.938
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:32.271
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:32.339
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:32.356
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:32.401
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:32.405
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:32.408
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:32.409
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:32.409
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:32.410
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:32.443
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:32.444
+!MESSAGE Started org.eclipse.m2e.core 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:32.477
+!MESSAGE ProjectRegistryRefreshJob finished 31ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:32.478
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:32.556
+!MESSAGE Started org.eclipse.buildship.core 78ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:32.579
+!MESSAGE LoadingGradleVersionJob finished 22ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:32.621
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:33.162
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:34.042
+!MESSAGE Workspace initialized in 1457ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:34.146
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:34.160
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:34.601
+!MESSAGE >> New configuration: {java={implementationsCodeLens={enabled=true}, referencesCodeLens={enabled=true}, format={enabled=true}, progressReports={enabled=true}, eclipse={downloadSources=true}, references={includeDecompiledSources=true}, maven={downloadSources=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:34.607
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:34.814
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:34.861
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:34.863
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:36.486
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:37.166
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:37.167
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:37.167
+!MESSAGE Validated 1. Took 279 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:48.613
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainClass
+
+!ENTRY java-debug 1 0 2022-03-16 22:08:48.649
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:49.072
+!MESSAGE >> workspace/executeCommand vscode.java.resolveJavaExecutable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:49.110
+!MESSAGE >> workspace/executeCommand vscode.java.checkProjectSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:49.129
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:54.029
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY java-debug 1 0 2022-03-16 22:08:54.258
+!MESSAGE Trying to launch Java Program with options:
+main-class: com.demo.App
+args: 
+module-path: 
+class-path: /home/o/Documents/JavaProject/demo/target/classes
+vmArgs: 
+
+!ENTRY java-debug 1 0 2022-03-16 22:08:54.418
+!MESSAGE Launching debuggee in terminal console succeeded.
+
+!ENTRY java-debug 1 0 2022-03-16 22:08:54.858
+!MESSAGE Debug connection closed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:58.410
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:58.425
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:58.472
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-16 22:08:58.503
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY java-debug 1 0 2022-03-16 22:08:59.102
+!MESSAGE Stopping com.microsoft.java.debug.plugin

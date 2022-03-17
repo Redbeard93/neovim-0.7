@@ -79,6 +79,9 @@ return require("packer").startup(function()
     -- 为代码调试提供 UI 界面
     use {
         "rcarriga/nvim-dap-ui",
+        requires = {
+            "mfussenegger/nvim-dap"
+        },
     }
     -- java语言支持
     use "mfussenegger/nvim-jdtls"

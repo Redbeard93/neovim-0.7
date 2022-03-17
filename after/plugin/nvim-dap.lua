@@ -1,51 +1,45 @@
-require("dapui").setup({
-  icons = { expanded = "▾", collapsed = "▸" },
-  mappings = {
-    -- Use a table to apply multiple mappings
-    expand = { "<CR>", "<2-LeftMouse>" },
-    open = "o",
-    remove = "d",
-    edit = "e",
-    repl = "r",
-  },
-  sidebar = {
-    -- You can change the order of elements in the sidebar
-    elements = {
-      -- Provide as ID strings or tables with "id" and "size" keys
-      {
-        id = "scopes",
-        size = 0.25, -- Can be float or integer > 1
-      },
-      { id = "breakpoints", size = 0.25 },
-      { id = "stacks", size = 0.25 },
-      { id = "watches", size = 00.25 },
-    },
-    size = 40,
-    position = "left", -- Can be "left", "right", "top", "bottom"
-  },
-  tray = {
-    elements = { "repl" },
-    size = 10,
-    position = "bottom", -- Can be "left", "right", "top", "bottom"
-  },
-  floating = {
-    max_height = nil, -- These can be integers or a float between 0 and 1.
-    max_width = nil, -- Floats will be treated as percentage of your screen.
-    border = "single", -- Border style. Can be "single", "double" or "rounded"
-    mappings = {
-      close = { "q", "<Esc>" },
-    },
-  },
-  windows = { indent = 1 },
-})
+-- https://github.com/mfussenegger/nvim-dap
 
-local dap, dapui = require("dap"), require("dapui")
-dap.listeners.after.event_initialized["dapui_config"] = function()
-  --dapui.open()
+-- WARN: dap 手动下载调试器
+-- https://github.com/mfussenegger/nvim-dap/wiki/Debug-Adapter-installation
+
+local dap = require("dap")
+
+
+-- 设置断点样式
+vim.fn.sign_define("DapBreakpoint", {text = "⊚", texthl = "TodoFgFIX", linehl = "", numhl = ""})
+
+-- 加载调试器配置
+local dap_config = {
+--    python = require("dap.python"),
+    -- go = require("dap.go")
+}
+
+-- 设置调试器
+for dap_name, dap_options in pairs(dap_config) do
+    dap.adapters[dap_name] = dap_options.adapters
+    dap.configurations[dap_name] = dap_options.configurations
 end
-dap.listeners.before.event_terminated["dapui_config"] = function()
-  dapui.close()
-end
-dap.listeners.before.event_exited["dapui_config"] = function()
-  dapui.close()
-end
+
+vim.keybinds.gmap("n", "<leader>dB", "<cmd>lua require'dap'.set_breakpoint(vim.fn.input('Breakpoint condition: '))<CR>", vim.keybinds.opts)
+vim.keybinds.gmap("n", "<leader>lp", "<cmd>lua require'dap'.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<CR>", vim.keybinds.opts)
+vim.keybinds.gmap("n", "<leader>ro", "<cmd>lua require'dap'.repl.open()<CR>", vim.keybinds.opts)
+-- 打断点
+vim.keybinds.gmap("n", "<leader>db", "<cmd>lua require'dap'.toggle_breakpoint()<CR>", vim.keybinds.opts)
+-- 开启调试或到下一个断点处
+vim.keybinds.gmap("n", "<F5>", "<cmd>lua require'dap'.continue()<CR>", vim.keybinds.opts)
+-- 单步进入执行（会进入函数内部，有回溯阶段）
+vim.keybinds.gmap("n", "<F6>", "<cmd>lua require'dap'.step_into()<CR>", vim.keybinds.opts)
+-- 单步跳过执行（不进入函数内部，无回溯阶段）
+vim.keybinds.gmap("n", "<F7>", "<cmd>lua require'dap'.step_over()<CR>", vim.keybinds.opts)
+-- 步出当前函数
+vim.keybinds.gmap("n", "<F8>", "<cmd>lua require'dap'.step_out()<CR>", vim.keybinds.opts)
+-- 重启调试
+vim.keybinds.gmap("n", "<F9>", "<cmd>lua require'dap'.run_last()<CR>", vim.keybinds.opts)
+-- 退出调试（关闭调试，关闭 repl，关闭 ui，清除内联文本）
+vim.keybinds.gmap(
+    "n",
+    "<F10>",
+    "<cmd>lua require'dap'.close()<CR><cmd>lua require'dap.repl'.close()<CR><cmd>lua require'dapui'.close()<CR><cmd>DapVirtualTextForceRefresh<CR>",
+    vim.keybinds.opts
+)

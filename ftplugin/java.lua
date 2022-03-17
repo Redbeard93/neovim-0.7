@@ -162,7 +162,7 @@ local current_buff = vim.api.nvim_get_current_buf
 local java_on_attach = function(client, bufnr)
 
     require('jdtls').setup_dap({ hotcodereplace = 'auto' })
-
+    require('jdtls.setup').add_commands()
     local function buf_set_keymap(...)
         vim.api.nvim_buf_set_keymap(bufnr, ...)
     end
@@ -209,32 +209,40 @@ local java_on_attach = function(client, bufnr)
     -- 代码保存自动格式化formatting
     vim.api.nvim_command [[autocmd BufWritePre <buffer> lua vim.lsp.buf.formatting_seq_sync()]]
 
-    vim.cmd "command! -buffer -nargs=? -complete=custom,v:lua.require'jdtls'._complete_compile JdtCompile lua require('jdtls').compile(<f-args>)"
-    vim.cmd "command! -buffer -nargs=? -complete=custom,v:lua.require'jdtls'._complete_set_runtime JdtSetRuntime lua require('jdtls').set_runtime(<f-args>)"
-    vim.cmd "command! -buffer JdtUpdateConfig lua require('jdtls').update_project_config()"
-    vim.cmd "command! -buffer JdtJol lua require('jdtls').jol()"
-    vim.cmd "command! -buffer JdtBytecode lua require('jdtls').javap()"
-    vim.cmd "command! -buffer JdtJshell lua require('jdtls').jshell()"
-
     vim.cmd([[
+
     function! s:jdtls_test_class_ui()
     lua require'jdtls'.test_class()
     lua require'dapui'.open()
     endfunction
+
     function! s:jdtls_test_method_ui()
     lua require'jdtls'.test_nearest_method()
     lua require'dapui'.open()
     endfunction
+
+    nnoremap <leader>dc <Cmd>lua require'jdtls'.test_class()<CR>
+
+    nnoremap <leader>dm <Cmd>lua require'jdtls'.test_nearest_method()<CR>
+
+    nnoremap <leader>dr <Cmd>JdtRefreshDebugConfigs<CR>
+
     command! -nargs=0 TestClass  :lua require'jdtls'.test_class()
     command! -nargs=0 TestMethod  :lua require'jdtls'.test_nearest_method()
     command! -nargs=0 TestClassUI  :call s:jdtls_test_class_ui()
     command! -nargs=0 TestMethodUI :call s:jdtls_test_method_ui()
-    nnoremap <leader>dc <Cmd>lua require'jdtls'.test_class()<CR>
-    nnoremap <leader>dm <Cmd>lua require'jdtls'.test_nearest_method()<CR>
-    command! -nargs=0 JdtRefreshDebugConfigs :lua require('jdtls.dap').setup_dap_main_class_configs()
+   " command! -nargs=0 JdtRefreshDebugConfigs :lua require('jdtls.dap').setup_dap_main_class_configs()
+    command! -buffer -nargs=? -complete=custom,v:lua.require'jdtls'._complete_compile JdtCompile lua require('jdtls').compile(<f-args>)
+    command! -buffer -nargs=? -complete=custom,v:lua.require'jdtls'._complete_set_runtime JdtSetRuntime lua require('jdtls').set_runtime(<f-args>)
+    command! -buffer JdtUpdateConfig lua require('jdtls').update_project_config()
+    command! -buffer JdtJol lua require('jdtls').jol()
+    command! -buffer JdtBytecode lua require('jdtls').javap()
+    command! -buffer JdtJshell lua require('jdtls').jshell()
 ]])
 end
 
 java_on_attach(nil, current_buff)
 
 require("jdtls").start_or_attach(config)
+
+require('keymaps')

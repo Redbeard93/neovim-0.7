@@ -1,20 +1,12 @@
--- nvim-dap
-vim.cmd([[
-nnoremap <silent> <F5> :lua require'dap'.continue()<CR>
-nnoremap <silent> <F6> :lua require'dap'.step_over()<CR>
-nnoremap <silent> <F7> :lua require'dap'.step_into()<CR>
-nnoremap <silent> <F8> :lua require'dap'.step_out()<CR>
-nnoremap <silent> <leader>db :lua require'dap'.toggle_breakpoint()<CR>
-nnoremap <silent> <leader>B :lua require'dap'.set_breakpoint(vim.fn.input('Breakpoint condition: '))<CR>
-nnoremap <silent> <leader>lp :lua require'dap'.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<CR>
-nnoremap <silent> <leader>dr :lua require'dap'.repl.open()<CR>
-nnoremap <silent> <leader>dl :lua require'dap'.run_last()<CR>
-]])
+--- 默认的键位设置函数太长了，所以这里将它们重新引用一下
+vim.keybinds = {
+    gmap = vim.api.nvim_set_keymap,
+    bmap = vim.api.nvim_buf_set_keymap,
+    dgmap = vim.api.nvim_del_keymap,
+    dbmap = vim.api.nvim_buf_del_keymap,
+    opts = {noremap = true, silent = true}
+}
 
--- nvim-dap-ui
-vim.cmd([[
-nnoremap <silent> <space>dr :lua require("dapui").float_element(vim.Nil, { enter = true}) <CR>
-]])
 
 local opts = { noremap = true, silent = true }
 --local term_opts = { silent = true }
