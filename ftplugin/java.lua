@@ -68,7 +68,6 @@ local config = {
         "-data",
         workspace_dir,
     },
-    on_attach = java_on_attach,
     capabilities = capabilities,
     root_dir = root_dir,
     settings = {
@@ -156,13 +155,13 @@ local bundles = {
 
 vim.list_extend(bundles, vim.split(vim.fn.glob(home .. "/.config/nvim/debug/vscode-java-test/server/*.jar"),"\n"))
 
-local current_buff = vim.api.nvim_get_current_buf
 -- 在语言服务器附加到当前缓冲区之后
 -- 使用 on_attach 函数仅映射以下键
-local java_on_attach = function(client, bufnr)
+config['on_attach'] = function(client, bufnr)
 
     require('jdtls').setup_dap({ hotcodereplace = 'auto' })
     require('jdtls.setup').add_commands()
+   -- require('jdtls.dap').setup_dap_main_class_configs({ verbose = true})
     local function buf_set_keymap(...)
         vim.api.nvim_buf_set_keymap(bufnr, ...)
     end
@@ -179,7 +178,7 @@ local java_on_attach = function(client, bufnr)
     buf_set_keymap("n", "gd", "<Cmd>lua vim.lsp.buf.definition()<CR>", opts)
     buf_set_keymap('n', 'K', '<Cmd>lua vim.lsp.buf.hover()<CR>', opts)
     buf_set_keymap("n", "gi", "<cmd>lua vim.lsp.buf.implementation()<CR>", opts)
-    --buf_set_keymap('i', '<C-k>', '<cmd>lua vim.lsp.buf.signature_help()<CR>', opts)
+    buf_set_keymap('i', '<C-s>', '<cmd>lua vim.lsp.buf.signature_help()<CR>', opts)
     buf_set_keymap("n", "<space>wa", "<cmd>lua vim.lsp.buf.add_workspace_folder()<CR>", opts)
     buf_set_keymap("n", "<space>wr", "<cmd>lua vim.lsp.buf.remove_workspace_folder()<CR>", opts)
     buf_set_keymap("n", "<space>wl", "<cmd>lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>", opts)
@@ -209,6 +208,10 @@ local java_on_attach = function(client, bufnr)
     -- 代码保存自动格式化formatting
     vim.api.nvim_command [[autocmd BufWritePre <buffer> lua vim.lsp.buf.formatting_seq_sync()]]
 
+    buf_set_keymap("n","<leader>dc","<Cmd>lua require'jdtls'.test_class()<CR>", opts)
+    buf_set_keymap("n","<leader>dm","<Cmd>lua require'jdtls'.test_nearest_method()<CR>", opts)
+    buf_set_keymap("n","<leader>dr","<Cmd>JdtRefreshDebugConfigs<CR>", opts)
+
     vim.cmd([[
 
     function! s:jdtls_test_class_ui()
@@ -221,28 +224,9 @@ local java_on_attach = function(client, bufnr)
     lua require'dapui'.open()
     endfunction
 
-    nnoremap <leader>dc <Cmd>lua require'jdtls'.test_class()<CR>
-
-    nnoremap <leader>dm <Cmd>lua require'jdtls'.test_nearest_method()<CR>
-
-    nnoremap <leader>dr <Cmd>JdtRefreshDebugConfigs<CR>
-
-    command! -nargs=0 TestClass  :lua require'jdtls'.test_class()
-    command! -nargs=0 TestMethod  :lua require'jdtls'.test_nearest_method()
     command! -nargs=0 TestClassUI  :call s:jdtls_test_class_ui()
     command! -nargs=0 TestMethodUI :call s:jdtls_test_method_ui()
-   " command! -nargs=0 JdtRefreshDebugConfigs :lua require('jdtls.dap').setup_dap_main_class_configs()
-    command! -buffer -nargs=? -complete=custom,v:lua.require'jdtls'._complete_compile JdtCompile lua require('jdtls').compile(<f-args>)
-    command! -buffer -nargs=? -complete=custom,v:lua.require'jdtls'._complete_set_runtime JdtSetRuntime lua require('jdtls').set_runtime(<f-args>)
-    command! -buffer JdtUpdateConfig lua require('jdtls').update_project_config()
-    command! -buffer JdtJol lua require('jdtls').jol()
-    command! -buffer JdtBytecode lua require('jdtls').javap()
-    command! -buffer JdtJshell lua require('jdtls').jshell()
 ]])
 end
 
-java_on_attach(nil, current_buff)
-
 require("jdtls").start_or_attach(config)
-
-require('keymaps')

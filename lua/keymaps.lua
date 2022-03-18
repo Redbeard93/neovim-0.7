@@ -1,13 +1,3 @@
---- 默认的键位设置函数太长了，所以这里将它们重新引用一下
-vim.keybinds = {
-    gmap = vim.api.nvim_set_keymap,
-    bmap = vim.api.nvim_buf_set_keymap,
-    dgmap = vim.api.nvim_del_keymap,
-    dbmap = vim.api.nvim_buf_del_keymap,
-    opts = {noremap = true, silent = true}
-}
-
-
 local opts = { noremap = true, silent = true }
 --local term_opts = { silent = true }
 
@@ -126,7 +116,6 @@ keymap("n", "Q", ":q!<CR>", opts)
 
 --保 存
 keymap('n', '<C-s>', ':w<CR>', opts)
-keymap('i', '<C-s>', '<ESC> :w<CR>', opts)
 --全选
 keymap('n', '<C-a>', 'gg<S-v>G', opts)
 ------按键映射 end  ------

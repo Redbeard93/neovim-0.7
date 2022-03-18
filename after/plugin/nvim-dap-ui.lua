@@ -55,5 +55,14 @@ dap.listeners.before.event_exited["dapui_config"] = function()
     dapui.close()
     dap.repl.close()
 end
+
+--- 默认的键位设置函数太长了，所以这里将它们重新引用一下
+vim.keybinds = {
+    gmap = vim.api.nvim_set_keymap,
+    bmap = vim.api.nvim_buf_set_keymap,
+    dgmap = vim.api.nvim_del_keymap,
+    dbmap = vim.api.nvim_buf_del_keymap,
+    opts = {noremap = true, silent = true}
+}
 -- 显示或隐藏调试界面
 vim.keybinds.gmap("n", "<leader>dui", "<cmd>lua require'dapui'.toggle()<CR>", vim.keybinds.opts)

@@ -8,7 +8,9 @@ local dap = require("dap")
 
 -- 设置断点样式
 vim.fn.sign_define("DapBreakpoint", {text = "⊚", texthl = "TodoFgFIX", linehl = "", numhl = ""})
-
+vim.fn.sign_define("DapBreakpointCondition", { text = "ü", texthl = "", linehl = "", numhl = "" })
+-- Setup cool Among Us as avatar
+vim.fn.sign_define("DapStopped", { text = "ඞ", texthl = "Error" })
 -- 加载调试器配置
 local dap_config = {
 --    python = require("dap.python"),
@@ -20,6 +22,15 @@ for dap_name, dap_options in pairs(dap_config) do
     dap.adapters[dap_name] = dap_options.adapters
     dap.configurations[dap_name] = dap_options.configurations
 end
+
+--- 默认的键位设置函数太长了，所以这里将它们重新引用一下
+vim.keybinds = {
+    gmap = vim.api.nvim_set_keymap,
+    bmap = vim.api.nvim_buf_set_keymap,
+    dgmap = vim.api.nvim_del_keymap,
+    dbmap = vim.api.nvim_buf_del_keymap,
+    opts = {noremap = true, silent = true}
+}
 
 vim.keybinds.gmap("n", "<leader>dB", "<cmd>lua require'dap'.set_breakpoint(vim.fn.input('Breakpoint condition: '))<CR>", vim.keybinds.opts)
 vim.keybinds.gmap("n", "<leader>lp", "<cmd>lua require'dap'.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<CR>", vim.keybinds.opts)
@@ -37,9 +48,4 @@ vim.keybinds.gmap("n", "<F8>", "<cmd>lua require'dap'.step_out()<CR>", vim.keybi
 -- 重启调试
 vim.keybinds.gmap("n", "<F9>", "<cmd>lua require'dap'.run_last()<CR>", vim.keybinds.opts)
 -- 退出调试（关闭调试，关闭 repl，关闭 ui，清除内联文本）
-vim.keybinds.gmap(
-    "n",
-    "<F10>",
-    "<cmd>lua require'dap'.close()<CR><cmd>lua require'dap.repl'.close()<CR><cmd>lua require'dapui'.close()<CR><cmd>DapVirtualTextForceRefresh<CR>",
-    vim.keybinds.opts
-)
+vim.keybinds.gmap( "n", "<F10>", "<cmd>lua require'dap'.close()<CR><cmd>lua require'dap.repl'.close()<CR><cmd>lua require'dapui'.close()<CR><cmd>DapVirtualTextForceRefresh<CR>", vim.keybinds.opts)
