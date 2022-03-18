@@ -64,9 +64,7 @@ return require("packer").startup(function()
         requires = "hrsh7th/nvim-cmp",
     }
     -- 代码调试基础插件
-    use {
-        "mfussenegger/nvim-dap",
-    }
+    use { "mfussenegger/nvim-dap", }
 
     -- 为代码调试提供内联文本
     use {
@@ -108,21 +106,24 @@ return require("packer").startup(function()
         run = function() vim.fn['mkdp#util#install']() end,
     }
     -- 精美弹窗
-    use {
-        "rcarriga/nvim-notify",
-    }
+    use { "rcarriga/nvim-notify", }
 
     -- 搜索时显示条目
-    use {
-        "kevinhwang91/nvim-hlslens",
-    }
+    use { "kevinhwang91/nvim-hlslens", }
     -- 自动会话管理
-    use {
-        "rmagatti/auto-session",
-    }
+    use { "rmagatti/auto-session", }
     -- 显示网页色
+    use { "norcalli/nvim-colorizer.lua", }
+    -- 模糊查找
     use {
-        "norcalli/nvim-colorizer.lua",
+        "nvim-telescope/telescope.nvim",
+        requires = {
+            "nvim-lua/plenary.nvim", -- Lua 开发模块
+            "BurntSushi/ripgrep", -- 文字查找
+            "sharkdp/fd" -- 文件查找
+        },
     }
+    -- Telescope 和 nvim-jdtls 互动的UI
+    use {'nvim-telescope/telescope-ui-select.nvim' }
 end)
 
