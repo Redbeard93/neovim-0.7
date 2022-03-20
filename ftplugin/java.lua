@@ -1,3 +1,9 @@
+--server正常工作需提前设置下面四条环境变量在bashrc或zshrc等
+--export JAVA_HOME=/usr/lib/jvm/java-11-openjdk 							#JDK的主目录，建议使用JDK11，使用JDK8会报错
+--PATH=$PATH:$JAVA_HOME/bin
+--export JDTLS_HOME=$HOME/.config/nvim/jdtls/ 			# 包含 plugin 和 configs 的目录，由jdt-language-server-xxx.tar.gz解压出的
+--export WORKSPACE=$HOME/.config/nvim/workspace/ # 不设置则默认是$HOME/workspace
+
 local status, jdtls = pcall(require, "jdtls")
 if not status then
     vim.notify("jdtls is down!!!")
@@ -149,6 +155,11 @@ vim.list_extend(bundles, vim.split(vim.fn.glob(home .. "/.config/nvim/debug/vsco
 -- 在语言服务器附加到当前缓冲区之后
 -- 使用 on_attach 函数仅映射以下键
 config['on_attach'] = function(client, bufnr)
+
+    if client.name == "jdt.ls"  then
+        vim.notify('jdt.ls on service!')
+    end
+
     require('jdtls').setup_dap({ hotcodereplace = 'auto' })
     require('jdtls.setup').add_commands()
     require('jdtls.dap').setup_dap_main_class_configs({ verbose = true})
@@ -175,13 +186,12 @@ config['on_attach'] = function(client, bufnr)
     buf_set_keymap("n", "<leader>D", "<cmd>lua vim.lsp.buf.type_definition()<CR>", opts)
     --重命名
     buf_set_keymap("n", "<leader>rn", "<cmd>lua vim.lsp.buf.rename()<CR>", opts)
-    --智能提醒，比如：自动导包 已经用lspsaga里的功能替换了
     buf_set_keymap("n", "<leader>ca", "<cmd>lua vim.lsp.buf.code_action()<CR>", opts)
     buf_set_keymap("n", "gr", "<cmd>lua vim.lsp.buf.references()<CR>", opts)
     buf_set_keymap("n", "<leader>e", "<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>", opts)
     buf_set_keymap('n', '<leader>dk', '<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>', opts)
     buf_set_keymap("n", "<leader>dj", "<cmd>lua vim.lsp.diagnostic.goto_next()<CR>", opts)
-    buf_set_keymap("n", "<leader>dl", "<cmd>Telescope diagnostics<CR>", opts)
+    buf_set_keymap("n", "<leader>dl", "<cmd>Telescope diagnostics theme=dropdown<CR>", opts)
     buf_set_keymap("n", "<leader>q", "<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>", opts)
     --代码格式化
     buf_set_keymap("n", "<leader>f", "<cmd>lua vim.lsp.buf.formatting()<CR>", opts)
@@ -226,7 +236,7 @@ capabilities.textDocument.completion.completionItem.snippetSupport = true
 
 local status_ok, cmp_nvim_lsp = pcall(require, "cmp_nvim_lsp")
 if not status_ok then
-  return
+    return
 end
 
 capabilities = cmp_nvim_lsp.update_capabilities(capabilities)

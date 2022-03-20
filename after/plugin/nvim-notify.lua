@@ -1,5 +1,5 @@
 local notify = require "notify"
-local icons = require "icons"
+local icons = require "conf.icons"
 
 notify.setup {
     -- Animation style (see below for details)

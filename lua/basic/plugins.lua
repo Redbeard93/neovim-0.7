@@ -125,5 +125,6 @@ return require("packer").startup(function()
     }
     -- Telescope 和 nvim-jdtls 互动的UI
     use {'nvim-telescope/telescope-ui-select.nvim' }
+    use "p00f/clangd_extensions.nvim"
 end)
 

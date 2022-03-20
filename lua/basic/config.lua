@@ -32,10 +32,6 @@ set statusline+=\ \ %c\
 set statusline+=\ ﴜ\ %p\ 
 ]])
 
--- nvim-dap
--- 指定 Python 解释器路径
-vim.g.python_path = "/usr/bin/python3.9"
-
 -- netrw
 vim.cmd([[
 let g:netrw_banner = 0
@@ -115,15 +111,16 @@ endfun
 
 " Make netrw act like a project Draw
 
-augroup ProjectDrawer
-    autocmd!
-    " Don't open Netrw
-    autocmd VimEnter *.md,*.txt,*.h,*.conf,*.sh,*.vim,\.* let b:noNetrw=1
-    autocmd VimEnter * :call NetrwOnBufferOpen()
-augroup END
+"augroup ProjectDrawer
+"    autocmd!
+"    " Don't open Netrw
+"    autocmd VimEnter *.md,*.txt,*.h,*.conf,*.sh,*.vim,\.* let b:noNetrw=1
+"    autocmd VimEnter * :call NetrwOnBufferOpen()
+"augroup END
 
 let g:NetrwIsOpen=0
 ]])
+
 --tabs manipulation
 vim.cmd([[
 nn <M-1> 1gt

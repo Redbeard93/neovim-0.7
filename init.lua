@@ -1,8 +1,6 @@
-
 --插件管理器
-require("config")
-require("settings")
-require("keymaps")
-require("plugins")
-
-
+require("basic.config")
+require("basic.settings")
+require("basic.keymaps")
+require("basic.plugins")
+require("lsp.init")
