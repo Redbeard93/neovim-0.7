@@ -21549,3 +21549,352 @@ java.lang.NullPointerException
 
 !ENTRY java-debug 1 0 2022-03-19 16:42:27.300
 !MESSAGE Stopping com.microsoft.java.debug.plugin
+!SESSION 2022-03-21 15:14:38.352 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/o/.config/nvim/workspace/folder/Hello
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:41.043
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:41.293
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:41.329
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:41.338
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:41.390
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:41.390
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:41.391
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:41.391
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:41.392
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:41.392
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:41.398
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:41.399
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:41.412
+!MESSAGE ProjectRegistryRefreshJob finished 12ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:41.412
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:41.465
+!MESSAGE Started org.eclipse.buildship.core 53ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:43.226
+!MESSAGE LoadingGradleVersionJob finished 1761ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:43.247
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:44.019
+!MESSAGE Workspace initialized in 790ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:44.086
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:44.089
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:44.147
+!MESSAGE >> New configuration: {java={implementationsCodeLens={enabled=true}, referencesCodeLens={enabled=true}, format={enabled=true}, progressReports={enabled=true}, eclipse={downloadSources=true}, references={includeDecompiledSources=true}, maven={downloadSources=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:44.149
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:44.578
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainClass
+
+!ENTRY java-debug 1 0 2022-03-21 15:14:44.617
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:44.956
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:44.992
+!MESSAGE >> workspace/executeCommand vscode.java.resolveJavaExecutable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:45.002
+!MESSAGE >> workspace/executeCommand vscode.java.checkProjectSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:45.016
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:45.249
+!MESSAGE begin problem for /Hey.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:45.250
+!MESSAGE 0 problems reported for /Hey.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:45.254
+!MESSAGE Validated 1. Took 295 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:45.290
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:45.296
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:45.297
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:46.885
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY java-debug 1 0 2022-03-21 15:14:47.291
+!MESSAGE Trying to launch Java Program with options:
+main-class: Hey
+args: 
+module-path: 
+class-path: /home/o/.config/nvim/workspace/folder/Hello/Hello_97ac6dbf/bin
+vmArgs: 
+
+!ENTRY java-debug 1 0 2022-03-21 15:14:47.491
+!MESSAGE Launching debuggee in terminal console succeeded.
+
+!ENTRY java-debug 1 0 2022-03-21 15:14:50.997
+!MESSAGE Debug connection closed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:51.167
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY java-debug 1 0 2022-03-21 15:14:51.182
+!MESSAGE Trying to launch Java Program with options:
+main-class: Hey
+args: 
+module-path: 
+class-path: /home/o/.config/nvim/workspace/folder/Hello/Hello_97ac6dbf/bin
+vmArgs: 
+
+!ENTRY java-debug 1 0 2022-03-21 15:14:51.303
+!MESSAGE Launching debuggee in terminal console succeeded.
+
+!ENTRY java-debug 1 0 2022-03-21 15:14:53.474
+!MESSAGE Debug connection closed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:54.866
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY java-debug 1 0 2022-03-21 15:14:54.891
+!MESSAGE Trying to launch Java Program with options:
+main-class: Hey
+args: 
+module-path: 
+class-path: /home/o/.config/nvim/workspace/folder/Hello/Hello_97ac6dbf/bin
+vmArgs: 
+
+!ENTRY java-debug 1 0 2022-03-21 15:14:54.992
+!MESSAGE Launching debuggee in terminal console succeeded.
+
+!ENTRY java-debug 1 0 2022-03-21 15:14:57.760
+!MESSAGE Debug connection closed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:14:57.850
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY java-debug 1 0 2022-03-21 15:14:57.870
+!MESSAGE Trying to launch Java Program with options:
+main-class: Hey
+args: 
+module-path: 
+class-path: /home/o/.config/nvim/workspace/folder/Hello/Hello_97ac6dbf/bin
+vmArgs: 
+
+!ENTRY java-debug 1 0 2022-03-21 15:14:57.981
+!MESSAGE Launching debuggee in terminal console succeeded.
+
+!ENTRY java-debug 1 0 2022-03-21 15:15:00.042
+!MESSAGE Debug connection closed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:00.452
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY java-debug 1 0 2022-03-21 15:15:00.482
+!MESSAGE Trying to launch Java Program with options:
+main-class: Hey
+args: 
+module-path: 
+class-path: /home/o/.config/nvim/workspace/folder/Hello/Hello_97ac6dbf/bin
+vmArgs: 
+
+!ENTRY java-debug 1 0 2022-03-21 15:15:00.599
+!MESSAGE Launching debuggee in terminal console succeeded.
+
+!ENTRY java-debug 1 0 2022-03-21 15:15:02.070
+!MESSAGE Debug connection closed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:02.297
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY java-debug 1 0 2022-03-21 15:15:02.316
+!MESSAGE Trying to launch Java Program with options:
+main-class: Hey
+args: 
+module-path: 
+class-path: /home/o/.config/nvim/workspace/folder/Hello/Hello_97ac6dbf/bin
+vmArgs: 
+
+!ENTRY java-debug 1 0 2022-03-21 15:15:02.420
+!MESSAGE Launching debuggee in terminal console succeeded.
+
+!ENTRY java-debug 1 0 2022-03-21 15:15:04.293
+!MESSAGE Debug connection closed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:04.749
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY java-debug 1 0 2022-03-21 15:15:04.770
+!MESSAGE Trying to launch Java Program with options:
+main-class: Hey
+args: 
+module-path: 
+class-path: /home/o/.config/nvim/workspace/folder/Hello/Hello_97ac6dbf/bin
+vmArgs: 
+
+!ENTRY java-debug 1 0 2022-03-21 15:15:04.873
+!MESSAGE Launching debuggee in terminal console succeeded.
+
+!ENTRY java-debug 1 0 2022-03-21 15:15:06.355
+!MESSAGE Debug connection closed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:06.709
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY java-debug 1 0 2022-03-21 15:15:06.730
+!MESSAGE Trying to launch Java Program with options:
+main-class: Hey
+args: 
+module-path: 
+class-path: /home/o/.config/nvim/workspace/folder/Hello/Hello_97ac6dbf/bin
+vmArgs: 
+
+!ENTRY java-debug 1 0 2022-03-21 15:15:06.839
+!MESSAGE Launching debuggee in terminal console succeeded.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:07.194
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:07.218
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:07.252
+!MESSAGE Reconciled 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:07.450
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:07.460
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:07.489
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:07.731
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:07.736
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:07.762
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:07.944
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:07.948
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:07.970
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:08.197
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:08.203
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:08.225
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:08.693
+!MESSAGE begin problem for /Hey.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:08.693
+!MESSAGE 15 problems reported for /Hey.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:08.695
+!MESSAGE Validated 1. Took 67 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:09.904
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:09.953
+!MESSAGE begin problem for /Hey.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:09.954
+!MESSAGE 0 problems reported for /Hey.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:11.034
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:11.045
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainClass
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:11.096
+!MESSAGE >> workspace/executeCommand vscode.java.resolveJavaExecutable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:11.107
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:11.122
+!MESSAGE >> workspace/executeCommand vscode.java.checkProjectSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:11.135
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY java-debug 1 0 2022-03-21 15:15:11.323
+!MESSAGE Debug connection closed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:11.547
+!MESSAGE begin problem for /Hey.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:11.547
+!MESSAGE 0 problems reported for /Hey.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:11.547
+!MESSAGE Validated 1. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:19.690
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:19.692
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:19.733
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-03-21 15:15:19.741
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY java-debug 1 0 2022-03-21 15:15:20.359
+!MESSAGE Stopping com.microsoft.java.debug.plugin

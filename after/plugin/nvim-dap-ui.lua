@@ -29,7 +29,7 @@ dapui.setup({
     position = "left", -- Can be "left", "right", "top", "bottom"
   },
   tray = {
-    elements = {},
+    elements = {"repl"},
     size = 10,
     position = "bottom", -- Can be "left", "right", "top", "bottom"
   },

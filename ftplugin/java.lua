@@ -157,7 +157,7 @@ vim.list_extend(bundles, vim.split(vim.fn.glob(home .. "/.config/nvim/debug/vsco
 config['on_attach'] = function(client, bufnr)
 
     if client.name == "jdt.ls"  then
-        vim.notify('jdt.ls on service!')
+        vim.notify('jdt.ls at your service!')
     end
 
     require('jdtls').setup_dap({ hotcodereplace = 'auto' })

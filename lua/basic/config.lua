@@ -1,3 +1,6 @@
+--dap 制定python解释器路径
+vim.g.python_path = "/usr/bin/python3.10"
+
 -- 自动切换输入法（fcitx5 框架）
 vim.g.fcitx5ToggleInput = function()
     local input_status = tonumber(vim.fn.system("fcitx5-remote"))

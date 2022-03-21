@@ -3,22 +3,26 @@
 --export GOROOT=/usr/lib/go
 --export PATH=$PATH:$GOPATH
 --export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-
 --clangd可以官网下载
 
 -- Determine OS
-local home = os.getenv "HOME"
-if vim.fn.has "mac" == 1 then
-    WORKSPACE_PATH = home .. "/workspace/"
-    CONFIG = "mac"
-elseif vim.fn.has "unix" == 1 then
-    WORKSPACE_PATH = home .. "/.config/nvim/workspace/"
-    CONFIG = "linux"
-else
-    print "Unsupported system"
-end
+--local home = os.getenv "HOME"
 -- Mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
+local icons = require "conf.icons"
+local signs = {
+
+{ name = "DiagnosticSignError", text = icons.diagnostics.Error },
+{ name = "DiagnosticSignWarn", text = icons.diagnostics.Warning },
+{ name = "DiagnosticSignHint", text = icons.diagnostics.Hint },
+{ name = "DiagnosticSignInfo", text = icons.diagnostics.Information },
+}
+
+for _, sign in ipairs(signs) do
+    vim.fn.sign_define(sign.name, { texthl = sign.name, text = sign.text, numhl = "" })
+end
+
+
 local opts = { noremap=true, silent=true }
 vim.api.nvim_set_keymap('n', '<leader>dl', '<cmd>Telescope diagnostics theme=dropdown<CR>', opts)
 vim.api.nvim_set_keymap('n', '<leader>dk', '<cmd>lua vim.diagnostic.goto_prev()<CR>', opts)
@@ -28,10 +32,19 @@ vim.api.nvim_set_keymap('n', '<leader>q', '<cmd>lua vim.diagnostic.setloclist()<
 -- Use an on_attach function to only map the following keys
 -- after the language server attaches to the current buffer
 local on_attach = function(client, bufnr)
+    if client.name == "sumneko_lua"  then
+        vim.notify('sumneko_lua at your service!')
+    end
+
+    if client.name == "pyright"  then
+        vim.notify('pyright at your service!')
+    end
+
+    if client.name == "gopls"  then
+        vim.notify('gopls at your service!')
+    end
+
     -- Enable completion triggered by <c-x><c-o>
-if client.name == "sumneko_lua"  then
-         vim.notify('sumneko_lua on service!')
-  end
     vim.api.nvim_buf_set_option(bufnr, 'omnifunc', 'v:lua.vim.lsp.omnifunc')
 
     -- Mappings.
@@ -56,7 +69,7 @@ end
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
 
-local servers = { 'pyright', 'tsserver', 'gopls', }
+local servers = { 'pyright', 'gopls' }
 for _, lsp in pairs(servers) do
     require('lspconfig')[lsp].setup {
         on_attach = on_attach,
@@ -79,13 +92,14 @@ require("clangd_extensions").setup{
         }
     }
 }
+
 --sumneko_lua
 local runtime_path = vim.split(package.path, ";")
 table.insert(runtime_path, "lua/?.lua")
 table.insert(runtime_path, "lua/?/init.lua")
 
-local sumneko_root_path = home .. '/.config/nvim/lua-language-server/'
-local sumneko_binary = sumneko_root_path.."/bin/lua-language-server"
+--local sumneko_root_path = '/usr/lib/lua-language-server/'
+--local sumneko_binary = sumneko_root_path.."/bin/lua-language-server"
 require('lspconfig').sumneko_lua.setup {
     on_attach = on_attach,
     capabilities = capabilities,
@@ -93,22 +107,23 @@ require('lspconfig').sumneko_lua.setup {
         -- This will be the default in neovim 0.7+
         debounce_text_changes = 150,
     };
-        cmd = {sumneko_binary, "-E", sumneko_root_path .. "/main.lua"};
-        settings = {
-            Lua = {
-                runtime = {
-                    version = "LuaJIT",
-                    path = runtime_path
-                },
-                diagnostics = {
-                    globals = {"vim"}
-                },
-                workspace = {
-                    library = vim.api.nvim_get_runtime_file("", true)
-                },
-                telemetry = {
-                    enable = false
-                }
+    --cmd = {sumneko_binary, "-E", sumneko_root_path .. "/main.lua"};
+    settings = {
+        Lua = {
+            runtime = {
+                version = "LuaJIT",
+                path = runtime_path
+            },
+            diagnostics = {
+                globals = {"vim"}
+            },
+            workspace = {
+                [vim.fn.expand "$VIMRUNTIME/lua"] = true,
+                [vim.fn.stdpath "config" .. "/lua"] = true,
+            },
+            telemetry = {
+                enable = false
             }
         }
     }
+}
