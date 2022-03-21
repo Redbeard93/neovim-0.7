@@ -112,7 +112,7 @@ keymap("n","<leader>mp",":MarkdownPreview<CR>",opts)
 keymap("n","<leader>ms",":MarkdownPreviewStop<CR>",opts)
 -- Custom
 keymap("n", "<esc><esc>", "<cmd>nohlsearch<cr>", opts)
-keymap("n", "<leader>q", ":q!<CR>", opts)
+
 
 --保 存
 keymap('n', '<C-s>', ':w<CR>', opts)
