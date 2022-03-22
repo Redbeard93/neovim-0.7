@@ -20,12 +20,13 @@ vim.g.maplocalleader = " "
 -- Normal --
 
 -- Pairs
-keymap("i","{","{}<ESC>i<CR><ESC>ko",opts)
+keymap("i","{","{}<ESC>i",opts)
 keymap("i","[","[]<LEFT>",opts)
 keymap("i","(","()<LEFT>",opts)
 keymap("i","<c-d>","<DELETE>",opts)
 keymap("i","]","<c-r>=SkipSquarebrackets()<CR>",opts)
 keymap("i",")","<c-r>=SkipParentheses()<CR>",opts)
+keymap("i","}","<c-r>=SkipCurlybrackets()<CR>",opts)
 
 vim.cmd([[
 func SkipParentheses()
@@ -33,6 +34,14 @@ func SkipParentheses()
         return "\<ESC>la"
     else
         return ")"
+    endif
+endfunc
+
+func SkipCurlybrackets()
+    if getline('.')[col('.') - 1] == '}'
+        return "\<ESC>la"
+    else
+        return "}"
     endif
 endfunc
 
@@ -76,6 +85,8 @@ keymap("n", "<S-h>", ":bprevious<CR>", opts)
 -- Move text up and down
 keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
 keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
+keymap("n", "[e", ":<c-u>execute 'move -1-'. v:count1<cr>", opts)
+keymap("n", "]e", ":<c-u>execute 'move +'. v:count1<cr>", opts)
 
 -- Insert --
 -- Press jk fast to enter
