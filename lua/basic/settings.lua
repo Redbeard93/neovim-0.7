@@ -9,6 +9,9 @@ vim.opt.shiftwidth=4
 vim.o.filetype = "plugin"
 -- 是否特殊显示空格等字符
 vim.o.list = true
+--在处理未保存或制度文件的时候，弹出确认
+vim.o.confirm = true
+
 vim.cmd([[
 "Basics
 "去掉NonText和EndOfBuffer的~标志nvim only
