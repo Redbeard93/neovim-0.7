@@ -116,6 +116,7 @@ keymap("n", "<esc><esc>", "<cmd>nohlsearch<cr>", opts)
 
 --保 存
 keymap('n', '<C-s>', ':w<CR>', opts)
---全选
-keymap('n', '<C-a>', 'gg<S-v>G', opts)
+-- 命令行历史
+keymap('c','<c-n>','<down>',opts)
+keymap('c','<c-p>','<up>',opts)
 ------按键映射 end  ------
