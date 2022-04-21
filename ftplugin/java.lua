@@ -27,7 +27,7 @@ if vim.fn.has "mac" == 1 then
     WORKSPACE_PATH = home .. "/workspace/"
     CONFIG = "mac"
 elseif vim.fn.has "unix" == 1 then
-    WORKSPACE_PATH = home .. "/.config/nvim/workspace/folder/"
+    WORKSPACE_PATH = home .. "/.config/nvim/workspace/"
     CONFIG = "linux"
 else
     print "Unsupported system"
