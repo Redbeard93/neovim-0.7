@@ -1,3 +1,4 @@
+"Put this file in /.config/nvim/compiler/
 "Avoid loading twice from autocommands
 if exists("current_compiler")
     finish
