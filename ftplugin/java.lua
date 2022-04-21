@@ -140,17 +140,20 @@ local config = {
             },
         }
     };
-    init_options = {
-        bundles = {bundles}
-    }
+    --init_options = {
+    --    bundles = {bundles}
+    --}
 }
 
 local bundles = {
     vim.fn.glob(home .. "/.config/nvim/debug/java-debug/com.microsoft.java.debug.plugin/target/com.microsoft.java.debug.plugin-*.jar")
-
 };
 
 vim.list_extend(bundles, vim.split(vim.fn.glob(home .. "/.config/nvim/debug/vscode-java-test/server/*.jar"),"\n"))
+
+config['init_options'] = {
+    bundles = bundles;
+}
 
 -- 在语言服务器附加到当前缓冲区之后
 -- 使用 on_attach 函数仅映射以下键
