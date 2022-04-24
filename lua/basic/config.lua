@@ -27,7 +27,7 @@ set statusline+=\ %{StatuslineGit()}
 set statusline+=\ \ %.33F
 set statusline+=\ \ \ %y
 set statusline+=%=
-set statusline+=\ \ %{strftime(\"%m-%d-%y\ %H:%M\")}\ 
+set statusline+=\ \ \ %{strftime(\"%m-%d-%y\ %H:%M\")}\ 
 set statusline+=\ %{&fileencoding?&fileencoding:&encoding}\ 
 set statusline+=\ %{&fileformat}\\ 
 set statusline+=\ 錄%L\ 
