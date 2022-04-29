@@ -11,7 +11,8 @@ vim.o.filetype = "plugin"
 vim.o.list = true
 --在处理未保存或制度文件的时候，弹出确认
 vim.o.confirm = true
-
+--global statusline
+vim.opt.laststatus = 3
 vim.cmd([[
 "Basics
 "去掉NonText和EndOfBuffer的~标志nvim only
