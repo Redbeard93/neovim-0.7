@@ -95,26 +95,26 @@ cmp.setup {
     },
 }
 
--- 命令行 / 模式提示
-cmp.setup.cmdline(
-    "/",
-{
-        sources = {
-        {name = "buffer"}
-        }
-    }
-)
--- 命令行 : 模式提示
-cmp.setup.cmdline(
-    ":",
-{
-        sources = cmp.config.sources(
-        {
-            {name = "path"}
-            },
-        {
-            {name = "cmdline"}
-            }
-        )
-    }
-)
+---- 命令行 / 模式提示
+--cmp.setup.cmdline(
+--    "/",
+--{
+--        sources = {
+--        {name = "buffer"}
+--        }
+--    }
+--)
+---- 命令行 : 模式提示
+--cmp.setup.cmdline(
+--    ":",
+--{
+--        sources = cmp.config.sources(
+--        {
+--            {name = "path"}
+--            },
+--        {
+--            {name = "cmdline"}
+--            }
+--        )
+--    }
+--)
