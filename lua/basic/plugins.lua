@@ -1,13 +1,13 @@
 ---@diagnostic disable: undefined-global
 --在没有安装packer的电脑上，自动安装packer插件
-local fn = vim.fn
-local install_path = fn.stdpath("data") .. "/site/pack/packer/start/packer.nvim"
-if fn.empty(fn.glob(install_path)) > 0 then
-  fn.system(
-    {"git", "clone", "--depth", "1", "https://gitcode.net/mirrors/wbthomason/packer.nvim", install_path}
-  ) --csdn加速镜像
-    vim.cmd [[packadd packer.nvim]]
-end
+--local fn = vim.fn
+--local install_path = fn.stdpath("data") .. "/site/pack/packer/start/packer.nvim"
+--if fn.empty(fn.glob(install_path)) > 0 then
+--  fn.system(
+--    {"git", "clone", "--depth", "1", "https://gitcode.net/mirrors/wbthomason/packer.nvim", install_path}
+--  ) --csdn加速镜像
+--    vim.cmd [[packadd packer.nvim]]
+--end
 -- Only required if you have packer configured as `opt`
 --【国内加速】插件名称超长的说明：
 --由于国内网络环境访问github及其不稳定，所以如果在gitcode.net上的镜像的（https://gitcode.net/mirrors/开头的），我们尽量使用。这样可以提高访问速度。
@@ -29,12 +29,12 @@ packer.init {
 }
 return require("packer").startup(function()
     -- Packer可以管理自己的更新
-    use "https://gitcode.net/mirrors/wbthomason/packer.nvim"
+    use "wbthomason/packer.nvim"
     --Nvim LSP 客户端的快速入门配置
-    use "https://gitcode.net/mirrors/neovim/nvim-lspconfig"
+    use "neovim/nvim-lspconfig"
     --自动提示插件
     use {
-        "https://gitcode.net/mirrors/hrsh7th/nvim-cmp",
+        "hrsh7th/nvim-cmp",
         requires = {
             "hrsh7th/cmp-nvim-lsp", --neovim 内置 LSP 客户端的 nvim-cmp 源
             "hrsh7th/cmp-buffer", --从buffer中智能提示
@@ -85,7 +85,7 @@ return require("packer").startup(function()
     use "mfussenegger/nvim-jdtls"
     -- 代码段提示
     use {
-        "https://gitcode.net/mirrors/L3MON4D3/LuaSnip",
+        "L3MON4D3/LuaSnip",
         requires = {
             "saadparwaiz1/cmp_luasnip", -- Snippets source for nvim-cmp
             "rafamadriz/friendly-snippets" --代码段合集
