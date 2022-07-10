@@ -90,7 +90,7 @@ keymap("n", "]e", ":<c-u>execute 'move +'. v:count1<cr>", opts)
 
 -- Insert --
 -- Press jk fast to enter
-keymap("i", "lh", "<ESC>", opts)
+-- keymap("i", "lh", "<ESC>", opts)
 
 -- Visual --
 -- Stay in indent mode
