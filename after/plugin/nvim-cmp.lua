@@ -77,9 +77,8 @@ cmp.setup {
       -- completion = cmp.config.window.bordered(),
       -- documentation = cmp.config.window.bordered(),
     },
-    experimental = {
-        ghost_text = true,
-        native_menu = false,
+    view = {
+      entries = 'native'
     },
     sorting = {
         comparators = {
