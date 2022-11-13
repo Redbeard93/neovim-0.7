@@ -34,6 +34,8 @@ set statusline+=\ 錄%L\
 set statusline+=\ \ %l\ 
 set statusline+=\ \ %c\ 
 set statusline+=\ ﴜ\ %p\ 
+autocmd FileType dapui* set statusline=\ 
+autocmd FileType dap-repl set statusline=\ 
 ]])
 
 -- netrw
