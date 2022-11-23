@@ -476,7 +476,7 @@ ls.add_snippets("java", {
 		i(3, "myFunc"),
 		t("("),
 		i(4),
-		t(")"),
+		t(")"),fau
 		c(5, {
 			t(""),
 			sn(nil, {
@@ -566,7 +566,7 @@ end, { silent = true })
 
 -- <c-j> is my jump backwards key.
 -- this always moves to the previous item within the snippet
-vim.keymap.set({ "i", "s" }, "<leader>l", function()
+vim.keymap.set({ "i", "s" }, "<leader>h", function()
   if ls.jumpable(-1) then
     ls.jump(-1)
   end
