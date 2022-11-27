@@ -210,7 +210,7 @@ config['on_attach'] = function(client, bufnr)
     buf_set_keymap("v", "crm", "<Esc><Cmd>lua require('jdtls').extract_method(true)<CR>", opts)
 
     -- 代码保存自动格式化formatting
-    vim.api.nvim_command [[autocmd BufWritePre <buffer> lua vim.lsp.buf.formatting_seq_sync()]]
+    vim.api.nvim_command [[autocmd BufWritePre <buffer> lua vim.lsp.buf.format()]]
 
     buf_set_keymap("n","<leader>dc","<Cmd>lua require'jdtls'.test_class()<CR>", opts)
     buf_set_keymap("n","<leader>dm","<Cmd>lua require'jdtls'.test_nearest_method()<CR>", opts)
