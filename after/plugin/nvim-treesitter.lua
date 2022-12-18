@@ -6,12 +6,13 @@ require("nvim-treesitter.configs").setup(
         ensure_installed = "all",
         -- 同步下载高亮支持
         sync_install = false,
+        auto_install = true,
         -- 高亮相关
         highlight = {
             -- 启用高亮支持
             enable = true,
             -- 使用 treesitter 高亮而不是 neovim 内置的高亮
-            additional_vim_regex_highlighting = true,
+            additional_vim_regex_highlighting = false,
         },
         -- 范围选择
         incremental_selection = {
