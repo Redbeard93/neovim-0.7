@@ -32,11 +32,11 @@ vim.keybinds = {
     opts = {noremap = true, silent = true}
 }
 
-vim.keybinds.gmap("n", "<leader>dB", "<cmd>lua require'dap'.set_breakpoint(vim.fn.input('Breakpoint condition: '))<CR>", vim.keybinds.opts)
+vim.keybinds.gmap("n", "<leader>B", "<cmd>lua require'dap'.set_breakpoint(vim.fn.input('Breakpoint condition: '))<CR>", vim.keybinds.opts)
 vim.keybinds.gmap("n", "<leader>lp", "<cmd>lua require'dap'.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<CR>", vim.keybinds.opts)
 vim.keybinds.gmap("n", "<leader>ro", "<cmd>lua require'dap'.repl.open()<CR>", vim.keybinds.opts)
 -- 打断点
-vim.keybinds.gmap("n", "<leader>db", "<cmd>lua require'dap'.toggle_breakpoint()<CR>", vim.keybinds.opts)
+vim.keybinds.gmap("n", "<leader>b", "<cmd>lua require'dap'.toggle_breakpoint()<CR>", vim.keybinds.opts)
 -- 开启调试或到下一个断点处
 vim.keybinds.gmap("n", "<F5>", "<cmd>lua require'dap'.continue()<CR>", vim.keybinds.opts)
 -- 单步进入执行（会进入函数内部，有回溯阶段）
