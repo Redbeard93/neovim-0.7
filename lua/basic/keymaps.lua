@@ -54,7 +54,7 @@ func SkipSquarebrackets()
 endfunc
 ]])
 -- Netrw
-keymap("n","<leader>f",":call ToggleNetrw()<CR>", opts)
+keymap("n","<leader>e",":call ToggleNetrw()<CR>", opts)
 
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
