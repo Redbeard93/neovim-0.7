@@ -16,7 +16,6 @@ require("telescope").setup {
                 preview_cutoff = 0,
             },
         },
-    },
         prompt_prefix = " ",
         selection_caret = " ",
         path_display = { "smart" },
