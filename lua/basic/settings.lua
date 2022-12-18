@@ -58,6 +58,9 @@ vim.opt.wildmode = { 'longest', 'list', 'full' }
 
 vim.opt.suffixesadd = ".java"
 
+vim.opt.clipboard = "unnamedplus"
+
+-- highlight
 vim.api.nvim_set_hl(0, "Cursor", { bg = "#9E619E", fg = "#619E9E" })
 vim.api.nvim_set_hl(0, "ModeMsg", { bg = "NONE", fg = "#619E9E" })
 vim.api.nvim_set_hl(0, "Search", { bg = "#619E9E", fg = "#9E619E" })
