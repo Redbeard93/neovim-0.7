@@ -54,7 +54,7 @@ func SkipSquarebrackets()
 endfunc
 ]])
 -- Netrw
-keymap("n","<leader>x",":call ToggleNetrw()<CR>", opts)
+keymap("n","<leader>f",":call ToggleNetrw()<CR>", opts)
 
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
@@ -119,8 +119,8 @@ keymap("n", "<leader>t", ":bo 12new<CR>:terminal<CR>", opts)
 -- keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
 --MarkdownPreview
-keymap("n","<leader>mp",":MarkdownPreview<CR>",opts)
-keymap("n","<leader>ms",":MarkdownPreviewStop<CR>",opts)
+keymap("n", "<leader>mp",":MarkdownPreview<CR>",opts)
+keymap("n", "<leader>ms",":MarkdownPreviewStop<CR>",opts)
 -- Custom
 keymap("n", "<esc><esc>", "<cmd>nohlsearch<cr>", opts)
 
@@ -128,6 +128,14 @@ keymap("n", "<esc><esc>", "<cmd>nohlsearch<cr>", opts)
 --保 存
 keymap('n', '<C-s>', ':w<CR>', opts)
 -- 命令行历史
-keymap('c','<c-n>','<down>',opts)
-keymap('c','<c-p>','<up>',opts)
+keymap('c', '<c-n>','<down>', opts)
+keymap('c', '<c-p>','<up>', opts)
+
+--copy & paste
+keymap('n', '<leader>y', '\"+y', opts)
+keymap('v', '<leader>y', '\"+y', opts)
+keymap('n', '<leader>Y', '\"+Y', opts)
+
+--excutable
+keymap('n', '<leader>x', '<cmd>!chmod +x %<CR>', opts)
 ------按键映射 end  ------
