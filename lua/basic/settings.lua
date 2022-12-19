@@ -77,7 +77,7 @@ vim.api.nvim_set_hl(0, "TabLine", { ctermbg = "NONE", bg = "NONE", fg = "#626262
 vim.api.nvim_set_hl(0, "LineNrBelow", { cterm = {italic = true}, ctermbg = "NONE", ctermfg = "DarkMagenta", italic = true, bg = "none", fg = "#619E9E" })
 vim.api.nvim_set_hl(0, "LineNrAbove", { cterm = {italic = true}, ctermbg = "NONE", ctermfg = "DarkCyan", italic = true, bg = "none", fg = "#9E619E" })
 vim.api.nvim_set_hl(0, "CursorLineNr", { cterm = {bold = true}, ctermbg = "NONE", ctermfg = "LightYellow", bold = true, bg = "none", fg = "#9E9E61" })
-vim.api.nvim_set_hl(0, "ColorColumn", { ctermbg = "Black", bg = "#100D23" })
+vim.api.nvim_set_hl(0, "ColorColumn", { ctermbg = "Black", bg = "#372963" })
 vim.api.nvim_set_hl(0, "SignColumn", { ctermbg = "NONE", ctermfg = "NONE", bg = "NONE", fg = "NONE" })
 vim.api.nvim_set_hl(0, "CursorLine", { cterm = {bold = true}, ctermbg = "NONE", bold = true, bg = "NONE", fg = "NONE" })
 vim.api.nvim_set_hl(0, "CursorColumn", { cterm = {bold = true}, ctermbg = "NONE", bold = true, bg = "NONE", fg = "NONE" })
