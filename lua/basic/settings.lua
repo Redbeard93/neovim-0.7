@@ -35,16 +35,6 @@ vim.opt.relativenumber = true
 vim.opt.cul = true
 vim.opt.cuc = true
 
--- tab=4个空格
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
-vim.opt.shiftwidth = 4
-vim.opt.expandtab = true
-
-vim.opt.smartindent = true
-
-vim.opt.wrap = false
-
 -- 是否特殊显示空格等字符
 vim.o.list = true
 
@@ -60,6 +50,8 @@ vim.opt.undofile = true
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
 vim.opt.ignorecase = true
+-- 智能大小写
+vim.opt.smartcase = true
 
 vim.opt.termguicolors = true
 
@@ -83,6 +75,44 @@ vim.opt.wildmode = { 'longest', 'list', 'full' }
 vim.opt.suffixesadd = ".java"
 
 vim.opt.clipboard = "unnamedplus"
+
+-- tab=4个空格
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+
+-- 新行对齐当前行，空格替代tab
+vim.o.expandtab = true
+vim.bo.expandtab = true
+vim.o.autoindent = true
+vim.bo.autoindent = true
+vim.opt.smartindent = true
+
+vim.opt.wrap = false
+
+local autocmd = vim.api.nvim_create_autocmd
+autocmd("FileType", {
+  pattern = {
+    "lua",
+    "javascript",
+    "json",
+    "css",
+    "html",
+    "xml",
+    "yaml",
+    "http",
+    "markdown",
+    "lisp",
+    "sh",
+  },
+  callback = function()
+    vim.opt_local.tabstop = 2
+    vim.opt_local.shiftwidth = 2
+    vim.opt_local.expandtab = true
+  end,
+})
+
 
 -- highlight
 vim.api.nvim_set_hl(0, "Cursor", { bg = "#9E619E", fg = "#619E9E" })
