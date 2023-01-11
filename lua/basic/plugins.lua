@@ -31,7 +31,12 @@ return require("packer").startup(function()
     -- Packer可以管理自己的更新
     use "wbthomason/packer.nvim"
     --Nvim LSP 客户端的快速入门配置
-    use "neovim/nvim-lspconfig"
+    use {
+        "williamboman/mason.nvim",
+        "williamboman/mason-lspconfig.nvim",
+        "neovim/nvim-lspconfig",
+    }
+
     --自动提示插件
     use {
         "hrsh7th/nvim-cmp",
