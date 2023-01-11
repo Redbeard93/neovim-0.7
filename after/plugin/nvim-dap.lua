@@ -13,6 +13,7 @@ vim.fn.sign_define("DapBreakpointCondition", { text = "ü", texthl = "", linehl 
 vim.fn.sign_define("DapStopped", { text = "ඞ", texthl = "Error" })
 -- 加载调试器配置
 local dap_config = {
+     c = require("dap.c"),
      python = require("dap.python"),
      go = require("dap.go")
 }
