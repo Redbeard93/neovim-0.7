@@ -6,6 +6,8 @@
 --vim.opt.shellquote = ""
 --vim.opt.shellxquote = ""
 
+vim.opt.clipboard = "unnamedplus"
+
 if vim.fn.has("wsl") == 1 then
   vim.g.clipboard = {
     name = "win32yank-wsl",
@@ -77,8 +79,6 @@ vim.opt.colorcolumn = "80"
 vim.opt.wildmode = { 'longest', 'list', 'full' }
 
 vim.opt.suffixesadd = ".java"
-
-vim.opt.clipboard = "unnamedplus"
 
 -- tab=4个空格
 vim.opt.tabstop = 4
